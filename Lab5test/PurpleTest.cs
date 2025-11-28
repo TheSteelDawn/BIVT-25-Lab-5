@@ -306,6 +306,7 @@ namespace Lab5test
                         Assert.AreEqual(answer[i][j, k], input[i][j, k]);
                     }
                 }
+                System.Console.WriteLine();
             }
         }
         [TestMethod]
